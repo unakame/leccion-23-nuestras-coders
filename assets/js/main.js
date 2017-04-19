@@ -1,17 +1,26 @@
 var texto1 = document.createElement("span");
              document.body.appendChild(texto1);
-             texto1.setAttribute("class","text");
              texto1.setAttribute("id","texto-1");
 
 var texto2 = document.createElement("span");
              document.body.appendChild(texto2);
-             texto2.setAttribute("class","text");
              texto2.setAttribute("id","texto-2");
 
 var texto3 = document.createElement("span");
              document.body.appendChild(texto3);
-             texto3.setAttribute("class","text");
              texto3.setAttribute("id","texto-3");
+
+var texto4 = document.createElement("span");
+             document.body.appendChild(texto4);
+             texto4.setAttribute("id","texto-4");
+
+var texto5 = document.createElement("span");
+             document.body.appendChild(texto5);
+             texto5.setAttribute("id","texto-5");
+
+var texto6 = document.createElement("span");
+             document.body.appendChild(texto6);
+             texto6.setAttribute("id","texto-6");
 
 var nombre1 = document.createTextNode("Nombre Apellido");
               texto1.appendChild(nombre1);
@@ -21,6 +30,15 @@ var nombre2 = document.createTextNode("Nombre Apellido");
 
 var nombre3 = document.createTextNode("Nombre Apellido");
               texto3.appendChild(nombre3);
+
+var nombre4 = document.createTextNode("Nombre Apellido");
+              texto4.appendChild(nombre4);
+
+var nombre5 = document.createTextNode("Nombre Apellido");
+              texto5.appendChild(nombre5);
+
+var nombre6 = document.createTextNode("Nombre Apellido");
+              texto6.appendChild(nombre6);
 
 var box1   = document.createElement("div");
              document.body.appendChild(box1);
@@ -32,6 +50,9 @@ var box1   = document.createElement("div");
 var box2   = document.createElement("div");
              document.body.appendChild(box2);
              box2.setAttribute("id","box2");
+             document.getElementById("box2").appendChild(texto4);
+             document.getElementById("box2").appendChild(texto5);
+             document.getElementById("box2").appendChild(texto6);
 
 var marina = document.createElement("img");
              marina.setAttribute("id","marina");

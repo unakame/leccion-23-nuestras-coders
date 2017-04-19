@@ -31,14 +31,17 @@ div{
   position: relative;
 }
 
-#texto-1{
+#texto-1,
+#texto-4{
   margin-left: 45px;
 }
 
-#texto-2{
+#texto-2,
+#texto-5{
   margin-left: 180px;
 }
 
-#texto-3{
+#texto-3,
+#texto-6{
   margin-left: 315px;
 }
