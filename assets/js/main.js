@@ -1,6 +1,14 @@
+var texto  = document.createElement("span");
+             document.body.appendChild(texto);
+             texto.setAttribute("class","text");
+
+var nombre = document.createTextNode("Nombre Apellido");
+             texto.appendChild(nombre);
+
 var box1   = document.createElement("div");
              document.body.appendChild(box1);
              box1.setAttribute("id","box1");
+             document.getElementById("box1").appendChild(texto);
 
 var box2   = document.createElement("div");
              document.body.appendChild(box2);
@@ -12,6 +20,7 @@ var marina = document.createElement("img");
              marina.setAttribute("class","pic")
              document.body.appendChild(marina);
              document.getElementById("box1").appendChild(marina);
+
 
 var lucy   = document.createElement("img");
              lucy.setAttribute("id","lucy");

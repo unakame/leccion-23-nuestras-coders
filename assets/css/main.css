@@ -12,4 +12,22 @@
   height: 110px;
   width: 110px;
   margin: 13px;
+  position: relative;
+  opacity: 0.8;
+
+}
+
+span{
+  position: absolute;
+  color: white;
+  margin-left: 45px;
+  margin-top: 105px;
+  z-index: +1;
+  font-family:  monospace;
+  font-size: 8.5px;
+  font-weight: bold;
+}
+
+div{
+  position: relative;
 }
