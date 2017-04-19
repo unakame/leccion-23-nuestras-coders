@@ -1,3 +1,10 @@
+var titulo = document.createElement("p");
+             document.body.appendChild(titulo);
+             titulo.setAttribute("id","title");
+
+var titleText = document.createTextNode("Nuestras coders");
+                titulo.appendChild(titleText);
+                
 var texto1 = document.createElement("span");
              document.body.appendChild(texto1);
              texto1.setAttribute("id","texto-1");
