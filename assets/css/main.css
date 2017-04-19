@@ -20,7 +20,6 @@
 span{
   position: absolute;
   color: white;
-  margin-left: 45px;
   margin-top: 105px;
   z-index: +1;
   font-family:  monospace;
@@ -30,4 +29,16 @@ span{
 
 div{
   position: relative;
+}
+
+#texto-1{
+  margin-left: 45px;
+}
+
+#texto-2{
+  margin-left: 180px;
+}
+
+#texto-3{
+  margin-left: 315px;
 }

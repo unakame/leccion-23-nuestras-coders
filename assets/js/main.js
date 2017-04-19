@@ -1,14 +1,33 @@
-var texto  = document.createElement("span");
-             document.body.appendChild(texto);
-             texto.setAttribute("class","text");
+var texto1 = document.createElement("span");
+             document.body.appendChild(texto1);
+             texto1.setAttribute("class","text");
+             texto1.setAttribute("id","texto-1");
 
-var nombre = document.createTextNode("Nombre Apellido");
-             texto.appendChild(nombre);
+var texto2 = document.createElement("span");
+             document.body.appendChild(texto2);
+             texto2.setAttribute("class","text");
+             texto2.setAttribute("id","texto-2");
+
+var texto3 = document.createElement("span");
+             document.body.appendChild(texto3);
+             texto3.setAttribute("class","text");
+             texto3.setAttribute("id","texto-3");
+
+var nombre1 = document.createTextNode("Nombre Apellido");
+              texto1.appendChild(nombre1);
+
+var nombre2 = document.createTextNode("Nombre Apellido");
+              texto2.appendChild(nombre2);
+
+var nombre3 = document.createTextNode("Nombre Apellido");
+              texto3.appendChild(nombre3);
 
 var box1   = document.createElement("div");
              document.body.appendChild(box1);
              box1.setAttribute("id","box1");
-             document.getElementById("box1").appendChild(texto);
+             document.getElementById("box1").appendChild(texto1);
+             document.getElementById("box1").appendChild(texto2);
+             document.getElementById("box1").appendChild(texto3);
 
 var box2   = document.createElement("div");
              document.body.appendChild(box2);
