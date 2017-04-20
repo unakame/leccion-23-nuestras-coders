@@ -105,5 +105,5 @@ var urano     = document.createElement("img");
 
 var espacio   = document.createElement("p");
                 document.body.appendChild(espacio);
-                barraEspacio.setAttribute("id","espacio");
+                espacio.setAttribute("id","espacio");
           //   document.getElementById("box").appendChild(barraEspacio);
